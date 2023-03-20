@@ -1,0 +1,7 @@
+# We can print hello world in python using 3 different methods. 
+
+1) print("Hello World")
+
+2) print("Hello World");
+
+3) save print("Hello World") in  .py file and run that file through cmd
