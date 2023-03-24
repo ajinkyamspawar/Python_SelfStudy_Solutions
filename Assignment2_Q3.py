@@ -20,16 +20,16 @@ sub5 = float(input())
 
 #taking the average of all subject marks 
 
-average = ((sub1+sub2+sub3+sub4+sub5)/5) 
+percentage = ((sub1+sub2+sub3+sub4+sub5)/500)*100 
 
-print("Average is:",average)
+print("percentage is:",percentage)
 
 #Deciding the grades based on marks. 
-if average < 35:
+if percentage < 35:
     print("You are Fail")
-elif average >= 35 and average < 50:
+elif percentage >= 35 and percentage < 50:
     print("You are Pass")
-elif average >= 50 and average < 75:
+elif percentage >= 50 and percentage < 75:
     print("You got First class")
 else:
     print("Yuhoo! Distinction")
