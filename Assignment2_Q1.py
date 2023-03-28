@@ -16,4 +16,4 @@ print("Values before swapping:","a=",a,"b=",b,"c=",c)
 
 a,b,c = c,a,b
 
-print("Values before swapping:","a=",a,"b=",b,"c=",c)
+print("Values after swapping:","a=",a,"b=",b,"c=",c)
