@@ -1,0 +1,12 @@
+def fibonacci(n):
+    a, b = 0, 1
+    while True:
+        yield a
+        a, b = b, a + b
+f1 = fibonacci(10)
+print(next(f1))
+print(next(f1))
+print(next(f1))
+print(next(f1))
+print(next(f1))
+print(next(f1))
